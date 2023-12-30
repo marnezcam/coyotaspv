@@ -1,16 +1,16 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { RankingScreen } from "../screens/RankingScreen";
+import { AccountScreen } from "../screens/AccountScreen";
 import { screen } from "../utils";
 
 const Stack = createNativeStackNavigator();
 
-export function RankingStack() {
+export function AccountStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name={screen.ranking.ranking}
-        component={RankingScreen}
-        options={{ title: "Ranking" }}
+        name={screen.account.account}
+        component={AccountScreen}
+        options={{ title: "Cuenta" }}
       />
     </Stack.Navigator>
   );

@@ -1,16 +1,16 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { RankingScreen } from "../screens/RankingScreen";
+import { SearchScreen } from "../screens/SearchScreen";
 import { screen } from "../utils";
 
 const Stack = createNativeStackNavigator();
 
-export function RankingStack() {
+export function SearchStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name={screen.ranking.ranking}
-        component={RankingScreen}
-        options={{ title: "Ranking" }}
+        name={screen.search.search}
+        component={SearchScreen}
+        options={{ title: "Buscador" }}
       />
     </Stack.Navigator>
   );
