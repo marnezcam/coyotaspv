@@ -1,11 +1,12 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { RestaurantsScreen } from "../screens/RestaurantsScreen";
-import { FavoriteScreen } from "../screens/FavoriteScreen";
+import { RestaurantStack } from "./RestaurantStack";
+import { FavoriteStack } from "./FavoritesStack";
+import { screen } from "../utils";
+
 import { RankingScreen } from "../screens/RankingScreen";
 import { SearchScreen } from "../screens/SearchScreen";
 import { AccountScreen } from "../screens/AccountScreen";
 import { Icon } from "@rneui/base";
-import { screen } from "../utils";
 
 const Tab = createBottomTabNavigator();
 
@@ -13,6 +14,7 @@ export function AppNavigation() {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
+        headerShown: false, //Oculta el nombre de las Screens
         tabBarActiveTintColor: "#00a680",
         tabBarInactiveTintColor: "#646464",
         tabBarIcon: ({ color, size }) => screenOptions(route, color, size),
@@ -20,12 +22,13 @@ export function AppNavigation() {
     >
       <Tab.Screen
         name={screen.restaurant.tab}
-        component={RestaurantsScreen}
+        component={RestaurantStack}
         options={{ title: "Restaurante" }}
       />
+
       <Tab.Screen
         name={screen.favorites.tab}
-        component={FavoriteScreen}
+        component={FavoriteStack}
         options={{ title: "Favoritos" }}
       />
       <Tab.Screen
