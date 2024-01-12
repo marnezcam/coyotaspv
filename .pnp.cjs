@@ -40,13 +40,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["expo-status-bar", "npm:1.6.0"],\
             ["expo-updates", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.18.19"],\
             ["firebase", "npm:10.7.1"],\
+            ["formik", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.4.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:18.2.0"],\
             ["react-native", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.72.6"],\
+            ["react-native-keyboard-aware-scroll-view", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5"],\
             ["react-native-safe-area-context", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:4.6.3"],\
             ["react-native-screens", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:3.22.1"],\
             ["react-native-vector-icons", "npm:10.0.3"],\
-            ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"]\
+            ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"],\
+            ["yup", "npm:1.3.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -68,13 +71,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["expo-status-bar", "npm:1.6.0"],\
             ["expo-updates", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.18.19"],\
             ["firebase", "npm:10.7.1"],\
+            ["formik", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.4.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:18.2.0"],\
             ["react-native", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.72.6"],\
+            ["react-native-keyboard-aware-scroll-view", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5"],\
             ["react-native-safe-area-context", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:4.6.3"],\
             ["react-native-screens", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:3.22.1"],\
             ["react-native-vector-icons", "npm:10.0.3"],\
-            ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"]\
+            ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"],\
+            ["yup", "npm:1.3.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6458,6 +6464,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/hoist-non-react-statics", [\
+        ["npm:3.3.5", {\
+          "packageLocation": "./.yarn/cache/@types-hoist-non-react-statics-npm-3.3.5-98b8d8e47b-b645b062a2.zip/node_modules/@types/hoist-non-react-statics/",\
+          "packageDependencies": [\
+            ["@types/hoist-non-react-statics", "npm:3.3.5"],\
+            ["@types/react", "npm:18.2.45"],\
+            ["hoist-non-react-statics", "npm:3.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/html-minifier-terser", [\
         ["npm:6.1.0", {\
           "packageLocation": "./.yarn/cache/@types-html-minifier-terser-npm-6.1.0-707ea07fcb-eb843f6a8d.zip/node_modules/@types/html-minifier-terser/",\
@@ -9724,6 +9741,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["deepmerge", [\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/deepmerge-npm-2.2.1-44c00cbffa-284b710650.zip/node_modules/deepmerge/",\
+          "packageDependencies": [\
+            ["deepmerge", "npm:2.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:4.3.1", {\
           "packageLocation": "./.yarn/cache/deepmerge-npm-4.3.1-4f751a0844-2024c6a980.zip/node_modules/deepmerge/",\
           "packageDependencies": [\
@@ -11520,6 +11544,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/formidable-npm-1.2.6-68be5e1519-2b68ed07ba.zip/node_modules/formidable/",\
           "packageDependencies": [\
             ["formidable", "npm:1.2.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["formik", [\
+        ["npm:2.4.5", {\
+          "packageLocation": "./.yarn/cache/formik-npm-2.4.5-d97cd46456-316c91fc4e.zip/node_modules/formik/",\
+          "packageDependencies": [\
+            ["formik", "npm:2.4.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.4.5", {\
+          "packageLocation": "./.yarn/__virtual__/formik-virtual-c55cebb783/0/cache/formik-npm-2.4.5-d97cd46456-316c91fc4e.zip/node_modules/formik/",\
+          "packageDependencies": [\
+            ["formik", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.4.5"],\
+            ["@types/hoist-non-react-statics", "npm:3.3.5"],\
+            ["@types/react", null],\
+            ["deepmerge", "npm:2.2.1"],\
+            ["hoist-non-react-statics", "npm:3.3.2"],\
+            ["lodash", "npm:4.17.21"],\
+            ["lodash-es", "npm:4.17.21"],\
+            ["react", "npm:18.2.0"],\
+            ["react-fast-compare", "npm:2.0.4"],\
+            ["tiny-warning", "npm:1.0.3"],\
+            ["tslib", "npm:2.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17210,6 +17264,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["property-expr", [\
+        ["npm:2.0.6", {\
+          "packageLocation": "./.yarn/cache/property-expr-npm-2.0.6-2a0857ed05-89977f4bb2.zip/node_modules/property-expr/",\
+          "packageDependencies": [\
+            ["property-expr", "npm:2.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["protobufjs", [\
         ["npm:7.2.5", {\
           "packageLocation": "./.yarn/unplugged/protobufjs-npm-7.2.5-3439c554a5/node_modules/protobufjs/",\
@@ -17564,6 +17627,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-fast-compare", [\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/react-fast-compare-npm-2.0.4-ab3f6356e2-06046595f9.zip/node_modules/react-fast-compare/",\
+          "packageDependencies": [\
+            ["react-fast-compare", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-freeze", [\
         ["npm:1.0.3", {\
           "packageLocation": "./.yarn/cache/react-freeze-npm-1.0.3-be8132f3c0-4258eabdbb.zip/node_modules/react-freeze/",\
@@ -17672,6 +17744,52 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/react",\
             "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-native-iphone-x-helper", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/react-native-iphone-x-helper-npm-1.3.1-2902981b52-0243766460.zip/node_modules/react-native-iphone-x-helper/",\
+          "packageDependencies": [\
+            ["react-native-iphone-x-helper", "npm:1.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8ce58b165b86fe45957025a4e671d0eab354add2768ce9a327b3d114031405a32c6aabb4a0ec7bf2f1cd8474c257b20ccdbf2e8b616728a138b7594e43a447cf#npm:1.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-native-iphone-x-helper-virtual-edb33b82d9/0/cache/react-native-iphone-x-helper-npm-1.3.1-2902981b52-0243766460.zip/node_modules/react-native-iphone-x-helper/",\
+          "packageDependencies": [\
+            ["react-native-iphone-x-helper", "virtual:8ce58b165b86fe45957025a4e671d0eab354add2768ce9a327b3d114031405a32c6aabb4a0ec7bf2f1cd8474c257b20ccdbf2e8b616728a138b7594e43a447cf#npm:1.3.1"],\
+            ["@types/react-native", null],\
+            ["react-native", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.72.6"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-native",\
+            "react-native"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-native-keyboard-aware-scroll-view", [\
+        ["npm:0.9.5", {\
+          "packageLocation": "./.yarn/cache/react-native-keyboard-aware-scroll-view-npm-0.9.5-cce5666698-5eec2aedb8.zip/node_modules/react-native-keyboard-aware-scroll-view/",\
+          "packageDependencies": [\
+            ["react-native-keyboard-aware-scroll-view", "npm:0.9.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5", {\
+          "packageLocation": "./.yarn/__virtual__/react-native-keyboard-aware-scroll-view-virtual-8ce58b165b/0/cache/react-native-keyboard-aware-scroll-view-npm-0.9.5-cce5666698-5eec2aedb8.zip/node_modules/react-native-keyboard-aware-scroll-view/",\
+          "packageDependencies": [\
+            ["react-native-keyboard-aware-scroll-view", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5"],\
+            ["@types/react-native", null],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react-native", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.72.6"],\
+            ["react-native-iphone-x-helper", "virtual:8ce58b165b86fe45957025a4e671d0eab354add2768ce9a327b3d114031405a32c6aabb4a0ec7bf2f1cd8474c257b20ccdbf2e8b616728a138b7594e43a447cf#npm:1.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-native",\
+            "react-native"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -20013,6 +20131,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["tiny-case", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/tiny-case-npm-1.0.3-8c9747c74e-3f7a30c39d.zip/node_modules/tiny-case/",\
+          "packageDependencies": [\
+            ["tiny-case", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tiny-warning", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/tiny-warning-npm-1.0.3-750b7a07c4-da62c4acac.zip/node_modules/tiny-warning/",\
+          "packageDependencies": [\
+            ["tiny-warning", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tmp", [\
         ["npm:0.0.33", {\
           "packageLocation": "./.yarn/cache/tmp-npm-0.0.33-bcbf65df2a-902d7aceb7.zip/node_modules/tmp/",\
@@ -20066,6 +20202,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["topo", "npm:3.0.3"],\
             ["hoek", "npm:6.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["toposort", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/toposort-npm-2.0.2-d472329c7d-d64c74b570.zip/node_modules/toposort/",\
+          "packageDependencies": [\
+            ["toposort", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -20187,6 +20332,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/type-fest-npm-0.7.1-7b37912923-5b1b113529.zip/node_modules/type-fest/",\
           "packageDependencies": [\
             ["type-fest", "npm:0.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.19.0", {\
+          "packageLocation": "./.yarn/cache/type-fest-npm-2.19.0-918b953248-a4ef07ece2.zip/node_modules/type-fest/",\
+          "packageDependencies": [\
+            ["type-fest", "npm:2.19.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21518,6 +21670,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yocto-queue-npm-0.1.0-c6c9a7db29-f77b3d8d00.zip/node_modules/yocto-queue/",\
           "packageDependencies": [\
             ["yocto-queue", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["yup", [\
+        ["npm:1.3.3", {\
+          "packageLocation": "./.yarn/cache/yup-npm-1.3.3-bef3f67698-7b9e19fedc.zip/node_modules/yup/",\
+          "packageDependencies": [\
+            ["yup", "npm:1.3.3"],\
+            ["property-expr", "npm:2.0.6"],\
+            ["tiny-case", "npm:1.0.3"],\
+            ["toposort", "npm:2.0.2"],\
+            ["type-fest", "npm:2.19.0"]\
           ],\
           "linkType": "HARD"\
         }]\

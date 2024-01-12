@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   content: {
-    // flex: 1,
-    // alingItems: "center",
-    // justifyContent: "center",
+    flex: 1,
+    alingItems: "center",
+    justifyContent: "center",
     marginTop: 30,
   },
   input: {
@@ -13,5 +13,13 @@ export const styles = StyleSheet.create({
   },
   icon: {
     color: "#c1c1c1",
+  },
+  btnContainer: {
+    marginTop: 20,
+    width: "95%",
+    alignSelf: "center",
+  },
+  btn: {
+    backgroundColor: "#00a680",
   },
 });
