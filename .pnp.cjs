@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-native-keyboard-aware-scroll-view", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5"],\
             ["react-native-safe-area-context", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:4.6.3"],\
             ["react-native-screens", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:3.22.1"],\
+            ["react-native-toast-message", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.2.0"],\
             ["react-native-vector-icons", "npm:10.0.3"],\
             ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"],\
             ["yup", "npm:1.3.3"]\
@@ -78,6 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-native-keyboard-aware-scroll-view", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.9.5"],\
             ["react-native-safe-area-context", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:4.6.3"],\
             ["react-native-screens", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:3.22.1"],\
+            ["react-native-toast-message", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.2.0"],\
             ["react-native-vector-icons", "npm:10.0.3"],\
             ["react-native-web", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.19.10"],\
             ["yup", "npm:1.3.3"]\
@@ -17893,6 +17895,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/react-native",\
             "react-native"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-native-toast-message", [\
+        ["npm:2.2.0", {\
+          "packageLocation": "./.yarn/cache/react-native-toast-message-npm-2.2.0-c76c7088d0-b286b8d5ca.zip/node_modules/react-native-toast-message/",\
+          "packageDependencies": [\
+            ["react-native-toast-message", "npm:2.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-native-toast-message-virtual-fb8bd5ec9a/0/cache/react-native-toast-message-npm-2.2.0-c76c7088d0-b286b8d5ca.zip/node_modules/react-native-toast-message/",\
+          "packageDependencies": [\
+            ["react-native-toast-message", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:2.2.0"],\
+            ["@types/react", null],\
+            ["@types/react-native", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-native", "virtual:998766efe6d556cc20cde24a22b62c1d5327b0fe0fda420d3d3b84d0ec2e9fa7d9c1f89ccbffd9aa4c539c313d61832349b1302ccf492fe58fde87c9d75ac534#npm:0.72.6"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-native",\
+            "@types/react",\
+            "react-native",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
